@@ -1,0 +1,318 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #04042c;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: none;
+  outline: none;
+  background: linear-gradient(90.02deg, #e7f0ff 7.51%, #002a7b 98.23%);
+  #cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    #ac {
+      align-items: center;
+      span {
+        font-size: 25px;
+        color: #131b6b;
+        font-weight: bold;
+      }
+    }
+    #gra {
+      font-size: 20px;
+
+      ul {
+        li {
+          a {
+            color: white;
+            padding: 5px 10px;
+            margin-top: 3px;
+          }
+        }
+
+        #contact {
+          font-size: 20px;
+          color: #131b6b;
+          font-weight: bold;
+          /* padding: 0px 20px; */
+          outline: none;
+          margin: none;
+          border: none;
+          width: 140px;
+          height: 40px;
+          border-radius: 3px;
+        }
+      }
+    }
+  }
+}
+#home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  #home1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px 60px;
+    #home11 {
+      font-size: 45px;
+      color: #131b6b;
+      background: radial-gradient(#41fff4 0%, #3750d3 100%);
+      background-clip: text;
+      color: transparent;
+      font-weight: bold;
+    }
+    #home12 {
+      font-size: 20px;
+      color: white;
+    }
+    #home13 {
+      width: 200px;
+      height: 45px;
+      border: 2px white solid;
+      border-radius: 5px;
+      position: relative;
+    }
+    #know {
+      width: 200px;
+      height: 45px;
+      /* border: 2px black solid; */
+      border-radius: 5px;
+      position: absolute;
+      top: 465px;
+      left: 70px;
+      z-index: -1;
+      background-color: blue;
+      font-weight: bold;
+      color: white;
+      outline: none;
+      border: none;
+    }
+  }
+  #home2 {
+    padding: 30px 30px;
+    video {
+      width: 800px;
+    }
+  }
+}
+
+#abo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  background: url(https://acmegrade.com/images/bg_ganga.jpg);
+  height: 700px;
+  #about1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    #abou1 {
+      font-size: 20px;
+      color: white;
+      border-bottom: 2px white solid;
+      padding: 20px 0px;
+      z-index: 3;
+    }
+    #we {
+      font-size: 40px;
+      width: 500px;
+      background: linear-gradient(#41fff4 10%, #3750d3 90%);
+      background-clip: text;
+      color: transparent;
+      font-weight: bold;
+    }
+    #for {
+      color: white;
+      width: 350px;
+      font-size: 20px;
+    }
+  }
+  #about2 {
+    max-width: 25%;
+    transform: rotate(calc(var(--scroll, 0) * 360deg)) scale(calc(1 + var(--scroll, 0) * 1.5));
+    transition: transform 0.1s linear;
+    /* height: 500px;
+    width: 500px; */
+  }
+}
+#abo1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: url(https://acmegrade.com/images/bg_ganga.jpg);
+  width: 1515px;
+  #about2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 1600px;
+    gap: 40px;
+    #abou2 {
+      font-size: 20px;
+      color: white;
+      border-bottom: 2px white solid;
+      padding: 20px 0px;
+      z-index: 3;
+    }
+    #we1 {
+      font-size: 40px;
+      width: 500px;
+      background: linear-gradient(#41fff4 10%, #3750d3 90%);
+      background-clip: text;
+      color: transparent;
+      font-weight: bold;
+    }
+    #for1 {
+      color: white;
+      width: 350px;
+      font-size: 20px;
+    }
+  }
+  #about21 {
+    position: relative;
+    max-width: 20%;
+    transform: rotate(calc(var(--scroll, 0) * 360deg))
+      scale(calc(1 + var(--scroll, 0) * 1.5));
+    transition: transform 0.1s linear;
+  }
+}
+#abo2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: url(https://acmegrade.com/images/bg_ganga.jpg);
+  width: 1500px;
+  #about3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 2400px;
+    gap: 40px;
+    #abou3 {
+      font-size: 20px;
+      color: white;
+      border-bottom: 2px white solid;
+      padding: 20px 0px;
+      z-index: 3;
+    }
+    #we2 {
+      font-size: 40px;
+      width: 500px;
+      background: linear-gradient(#41fff4 10%, #3750d3 90%);
+      background-clip: text;
+      color: transparent;
+      font-weight: bold;
+    }
+    #for2 {
+      color: white;
+      width: 350px;
+      font-size: 20px;
+    }
+  }
+  #about22 {
+    position: relative;
+    max-width: 20%;
+    transform: rotate(calc(var(--scroll, 0) * 360deg))
+      scale(calc(1 + var(--scroll, 0) * 1.5));
+    transition: transform 0.1s linear;
+  }
+}
+#tre {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  background: url(https://acmegrade.com/images/bg_ganga.jpg);
+  width: 1510px;
+
+  #trend {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    color: white;
+    padding: 20px 200px;
+  }
+  #trend1 {
+    font-size: 35px;
+    font-weight: bold;
+    background: radial-gradient(#41fff4 10%, #3750d3 90%);
+    background-clip: text;
+    color: transparent;
+  }
+  #trend2 {
+    font-size: 20px;
+    width: 800px;
+  }
+  #cards {
+    position: relative;
+    z-index: 1;
+
+    #mac {
+      height: 350px;
+      width: 350px;
+    }
+  }
+  #tre1 {
+    position: absolute;
+    top: 3300px;
+    width: 1500px;
+    /* z-index: -1; */
+  }
+}
+
+.slick-slide {
+  margin: 20px 20px;
+}
+
+#earth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  #earth1 {
+    width: 1510px;
+    position: relative;
+  }
+  #earth2 {
+    margin-top: -307px;
+    z-index: 1;
+  }
+}
+#our {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100vw;
+  #our1 {
+    font-size: 40px;
+  }
+}
